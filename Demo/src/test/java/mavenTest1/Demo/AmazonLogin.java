@@ -16,7 +16,7 @@ public class AmazonLogin
 	driver.manage().window().maximize();
 	driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	driver.get("https://www.amazon.com/");
-	System.out.println("Title of the Logged in Page is :" +driver.getTitle());
+	System.out.println("Logged in to Amazon suceesfully. " +driver.getTitle());
 	
 	}
 }
